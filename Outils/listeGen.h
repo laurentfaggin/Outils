@@ -29,8 +29,7 @@ public:
 
 	Liste(const Liste& p_listeACopier) :
 		m_nombreDElements(p_listeACopier.m_nombreDElements),
-		m_capacite(p_listeACopier.m_capacite),
-		m_liste(p_listeACopier.m_liste)
+		m_capacite(p_listeACopier.m_capacite)
 	{
 		this->m_liste = new TypeElement[this->m_capacite];
 		for (size_t i = 0; i < p_listeACopier.m_nombreDElements; ++i) {
