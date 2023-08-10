@@ -80,8 +80,8 @@ public:
 	}
 
 	virtual void supprimer(const int& p_index) {
-		if (p_index > this->m_nombreDElements) {
-			throw std::invalid_argument("la liste est vide a cet endroit");
+		if (p_index < 0 || p_index >= this->m_nombreDElements) {
+			throw std::invalid_argument("Index invalide");
 		}
 		for (int i = p_index; i < this->m_nombreDElements - 1; i++) {
 			this->m_liste[i] = this->m_liste[i + 1];
