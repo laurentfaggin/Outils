@@ -30,6 +30,9 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="pileMethodes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="collectionAbstract.h">
@@ -58,6 +61,9 @@
     </ClInclude>
     <ClInclude Include="fileOperateursGen.h">
       <Filter>Resource Files\FileGenerique</Filter>
+    </ClInclude>
+    <ClInclude Include="pileMethodes.h">
+      <Filter>Resource Files\PileGenerique</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -128,6 +128,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="pileMethodes.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="collectionAbstract.h" />
@@ -138,6 +139,7 @@
     <ClInclude Include="nodeGen.h" />
     <ClInclude Include="operateursListeGen.h" />
     <ClInclude Include="pileGen.h" />
+    <ClInclude Include="pileMethodes.h" />
     <ClInclude Include="pileOperateursGen.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
